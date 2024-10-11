@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1 {
+        color: orange;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h3 {
+        margin-top: 50px;
+    }
+
+    div {
+        height: 200px;
+        width: 200px;
+        margin-top: 100px;
+        margin-left: 100px;
+        border-radius: 50%;
+        background-color: rgb(18, 220, 69);
+        border: 15px solid black;
+        border-top-color:blue;
+        border-bottom-color: red;
+        border-left-color: yellow;
+        border-right-color: pink;
+        animation: spinAnimate 3s ease-in 0s infinite normal;
+    }
+
+    @keyframes spinAnimate {
+        to {
+            transform: rotate(360deg);
+        }
+    }
+</style>
+<body>
+    <div class="loader"></div>
+</html>
